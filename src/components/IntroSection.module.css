@@ -1,0 +1,28 @@
+
+.headingIntro{
+    width: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+
+.headingIntro::after,.headingIntro::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--base);
+    animation: textAni 5s steps(28) forwards;
+}
+
+@keyframes textAni{
+    100%{
+        left: 100%;
+    }
+}
+
+.headingIntro::after{
+    width: 0.25rem;
+    background-color: rgb(158, 150, 150);
+}
