@@ -18,4 +18,15 @@
     --lightGreen : rgb(82, 190, 172);
 }
 
+::-webkit-scrollbar{
+    width: 2px;
+    background-color: var(--base);
+}
 
+
+::-webkit-scrollbar-thumb {
+    background: var(--grey2);
+    height: 2px;
+}
+
+ 

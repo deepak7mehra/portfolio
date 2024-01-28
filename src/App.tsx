@@ -1,3 +1,4 @@
+import Card from "./components/Card"
 import IntroSection from "./components/IntroSection"
 import Navbar from "./components/Navbar"
 import SmallHeading from "./components/SmallHeading"
@@ -8,7 +9,7 @@ function App() {
     <>
 
     <Navbar/>
-    <main className="mt-20 max-w-[80ch] mx-auto ">
+    <main className="mt-20 max-w-[80ch] mx-auto p-4 md:p-0 ">
       <IntroSection/>
 
 
@@ -26,7 +27,22 @@ function App() {
 
        <div className="mt-20">
         <SmallHeading text="Projects"/>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas commodi repellat sed officia magnam a blanditiis, porro corrupti doloremque nam ipsum iste ut beatae placeat architecto nemo at reiciendis aspernatur!
+        <div className="mt-20 flex gap-3 overflow-x-auto mb-4">
+          <div className="min-w-[328px]">
+          <Card/>
+
+          </div>
+          <div className="min-w-[328px]">
+          <Card/>
+
+          </div>
+          <div className="min-w-[318px]">
+          <Card/>
+
+          </div>
+        
+          
+        </div>
 
        </div>
 
