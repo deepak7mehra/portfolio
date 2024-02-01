@@ -35,10 +35,11 @@ export default function Card() {
   return (
     <div ref={ref} className={` ${styles.hidden}  ${styles.animate} max-w-[328px]  min-h-[400px] relative rounded-2xl `}>
         <div className={` bg-purple-500 shadow-4xl ${styles.card__side} ${styles.card__sideFront} absolute w-full h-full rounded-2xl p-4 `}>
-          this is another content
+          <img className="h-48" src="/images/payment.png" alt="this is an image" />
+          <li className="mt-5">Developed a secure and responsive full-stack payment app using React.js, Node.js, and MongoDB, ensuring seamless user transactions.</li>
         </div>
          <div className={`  rounded-lg shadow-xl ${styles.card__side} ${styles.card__sideBack} absolute h-full w-full rounded-2xl p-4`}>
-          this is content
+          <a href="google.com">View on github</a>
         </div>
 
       
