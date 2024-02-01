@@ -71,15 +71,27 @@ function App() {
         <SmallHeading text="Projects"/>
         <div className={`mt-20 flex gap-3 md:gap-4 overflow-x-auto mb-4`}>
           <div className="min-w-[328px]">
-          <Card/>
+          <Card>
+            <Card.Front path="/images/payment.png" text={"Developed a secure and responsive full-stack payment app using React.js, Node.js, and MongoDB, ensuring seamless user transactions."}/>
+            <Card.Back link="www.twitter.com"/>
+
+          </Card>
 
           </div>
-          <div className="min-w-[328px] ">
-          <Card/>
+          <div className="min-w-[328px]">
+          <Card>
+            <Card.Front path="/images/oasis.png" text={"Orchestrated the development of a hotel management system, Wild Oasis, overseeing 8 cabins, optimizing guest tracking, per-night stays, and associated costs using React.js. Uses supabse as realtime backend."}/>
+            <Card.Back link="www.twitter.com"/>
+
+          </Card>
 
           </div>
-          <div className="min-w-[318px]">
-          <Card/>
+          <div className="min-w-[328px]">
+          <Card>
+            <Card.Front path="/images/pizza.png" text={"Developed a streamlined pizza ordering system using React, Tailwind CSS, and Redux, enabling users to seamlessly add pizzas to the cart and simulate the ordering process."}/>
+            <Card.Back link="www.twitter.com"/>
+
+          </Card>
 
           </div>
         
