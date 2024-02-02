@@ -47,3 +47,20 @@
     filter: blur(0px);
     transform: translateX(0);
 }
+
+/* .card2{
+    transition-delay: 200ms;
+}
+
+.card3{
+    transition-delay: 400ms;
+} */
+
+
+
+
+@media(prefers-reduced-motion){
+    .hidden{
+      transition: none;
+    }
+  }
