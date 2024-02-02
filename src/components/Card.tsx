@@ -37,15 +37,6 @@ function Card({children}:CardProps) {
 
   return (
     <div ref={ref} className={` ${styles.hidden}  ${styles.animate} max-w-[328px]  min-h-[400px] relative rounded-2xl `}>
-        {/* <div className={` bg-purple-500 shadow-4xl ${styles.card__side} ${styles.card__sideFront} absolute w-full h-full rounded-2xl p-4 `}>
-          <img className="h-48" src="/images/payment.png" alt="this is an image" />
-          <li className="mt-5">Developed a secure and responsive full-stack payment app using React.js, Node.js, and MongoDB, ensuring seamless user transactions.</li>
-        </div>
-         <div className={`  rounded-lg shadow-xl ${styles.card__side} ${styles.card__sideBack} absolute h-full w-full rounded-2xl p-4`}>
-          <a href="google.com">View on github</a> 
-        
-
-        </div> */}
         {children}
 
       
@@ -76,7 +67,10 @@ function Back({link}:BackProps){
 
   return(
     <div className={`  rounded-lg shadow-xl ${styles.card__side} ${styles.card__sideBack} absolute h-full w-full rounded-2xl p-4`}>
-          <a href={link} target="_blank">View on github</a>
+          <div className="h-full flex justify-center items-center">
+            <a href={link} target="_blank" className="bg-indigo-800 p-4 rounded-md"> View on github</a>
+          </div>
+          
     </div>
   )
 

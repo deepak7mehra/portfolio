@@ -41,6 +41,7 @@ export default function Navbar() {
             <div className='underline'>Home</div>
             <div><a href="https://github.com/deepak7mehra" target='_blank'>Github</a></div>
             <div><a href="https://www.linkedin.com/in/deepak-mehra-9015882a6/" target='_blank'>Linkedin</a></div>
+            <div>deepak7mehra7@gmail.com</div>
             </div>
         </div>
         }
@@ -51,6 +52,7 @@ export default function Navbar() {
         <div className='underline'>Home</div>
             <div><a href="https://github.com/deepak7mehra" target='_blank'>Github</a></div>
             <div><a href="https://www.linkedin.com/in/deepak-mehra-9015882a6/" target='_blank'>Linkedin</a></div>
+            <div>deepak7mehra7@gmail.com</div>
         </div>
         </div>
       </nav>
