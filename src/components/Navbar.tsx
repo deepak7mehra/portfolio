@@ -39,9 +39,8 @@ export default function Navbar() {
         </button>
             <div className='m-10 flex flex-col gap-5 italic text-lg'>
             <div className='underline'>Home</div>
-            <div>Project</div>
-            <div>GitHub</div>
-            <div>Linkdin</div>
+            <div><a href="https://github.com/deepak7mehra" target='_blank'>Github</a></div>
+            <div><a href="https://www.linkedin.com/in/deepak-mehra-9015882a6/" target='_blank'>Linkedin</a></div>
             </div>
         </div>
         }
@@ -50,9 +49,8 @@ export default function Navbar() {
         
         <div className='hidden md:flex md:gap-10 '>
         <div className='underline'>Home</div>
-            <div>Project</div>
-            <div>GitHub</div>
-            <div>Linkdin</div>
+            <div><a href="https://github.com/deepak7mehra" target='_blank'>Github</a></div>
+            <div><a href="https://www.linkedin.com/in/deepak-mehra-9015882a6/" target='_blank'>Linkedin</a></div>
         </div>
         </div>
       </nav>
